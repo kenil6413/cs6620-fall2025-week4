@@ -1,3 +1,4 @@
+"""Simple Python application for the CS6620 CI/CD lint assignment."""
 
 
 def add(a, b):
@@ -47,7 +48,5 @@ if __name__ == "__main__":
 
     result2 = calculate('multiply', 7, 3)
     print(f"7 * 3 = {result2}")
-
-    unused_variable = "This variable is never used"
 
     print("Calculator completed successfully!")
